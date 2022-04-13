@@ -10,7 +10,7 @@ class Student < User
     end
 
     def knowledge
-        @knowledge = "Javascript Ember Elixir knowledge"
+        @@knowledge = "Javascript Ember Elixir knowledge"
     end
 
 end
